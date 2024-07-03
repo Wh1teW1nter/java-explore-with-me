@@ -1,15 +1,14 @@
 package ru.practicum.explorewithme.compilation.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import ru.practicum.explorewithme.event.model.Event;
 
 import javax.persistence.*;
 import java.util.List;
 
-@Data
+@Getter 
+@Setter 
+@EqualsAndHashCode
 @Entity
 @Builder
 @NoArgsConstructor

@@ -1,8 +1,7 @@
 package ru.practicum.explorewithme.exception;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 import org.springframework.http.HttpStatus;
 
 import java.time.LocalDateTime;
@@ -10,7 +9,9 @@ import java.util.List;
 
 import static ru.practicum.explorewithme.constant.Constant.TIME_FORMAT;
 
-@Data
+@Getter
+@Setter
+@EqualsAndHashCode
 @RequiredArgsConstructor
 public class ApiError {
 

@@ -9,7 +9,9 @@ import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.List;
 
-@Data
+@Getter 
+@Setter 
+@EqualsAndHashCode
 @Builder
 @Entity
 @Table(name = "events")

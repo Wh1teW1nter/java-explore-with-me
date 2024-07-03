@@ -1,9 +1,13 @@
 package ru.practicum.explorewithme.event.model;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter 
+@Setter 
+@EqualsAndHashCode
 @AllArgsConstructor
 public class Location {
     private Float lat;

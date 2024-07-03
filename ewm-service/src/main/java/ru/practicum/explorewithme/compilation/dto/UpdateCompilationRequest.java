@@ -1,13 +1,14 @@
 package ru.practicum.explorewithme.compilation.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*;
 import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.Size;
 import java.util.List;
 
-@Data
+@Getter 
+@Setter 
+@EqualsAndHashCode
 @NoArgsConstructor
 @AllArgsConstructor
 public class UpdateCompilationRequest {

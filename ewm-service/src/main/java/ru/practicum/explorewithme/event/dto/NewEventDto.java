@@ -1,13 +1,13 @@
 package ru.practicum.explorewithme.event.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import ru.practicum.explorewithme.event.model.Location;
 
 import javax.validation.constraints.*;
 
-@Data
+@Getter 
+@Setter 
+@EqualsAndHashCode
 @AllArgsConstructor
 @NoArgsConstructor
 public class NewEventDto {

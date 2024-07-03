@@ -1,14 +1,14 @@
 package ru.practicum.explorewithme.event.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import ru.practicum.explorewithme.event.model.Location;
 
 import javax.validation.constraints.Positive;
 import javax.validation.constraints.Size;
 
-@Data
+@Getter 
+@Setter 
+@EqualsAndHashCode
 @NoArgsConstructor
 @AllArgsConstructor
 public class UpdateEventAdminRequest {
