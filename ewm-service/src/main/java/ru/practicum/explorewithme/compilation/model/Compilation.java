@@ -6,8 +6,8 @@ import ru.practicum.explorewithme.event.model.Event;
 import javax.persistence.*;
 import java.util.List;
 
-@Getter 
-@Setter 
+@Getter
+@Setter
 @EqualsAndHashCode
 @Entity
 @Builder

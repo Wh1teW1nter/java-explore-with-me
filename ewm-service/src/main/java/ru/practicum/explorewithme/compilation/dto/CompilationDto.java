@@ -5,8 +5,8 @@ import ru.practicum.explorewithme.event.dto.EventShortDto;
 
 import java.util.List;
 
-@Getter 
-@Setter 
+@Getter
+@Setter
 @EqualsAndHashCode
 @Builder
 @NoArgsConstructor

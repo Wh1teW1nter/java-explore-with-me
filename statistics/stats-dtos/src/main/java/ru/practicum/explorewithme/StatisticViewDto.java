@@ -2,8 +2,8 @@ package ru.practicum.explorewithme;
 
 import lombok.*;
 
-@Getter 
-@Setter 
+@Getter
+@Setter
 @EqualsAndHashCode
 @AllArgsConstructor
 @NoArgsConstructor

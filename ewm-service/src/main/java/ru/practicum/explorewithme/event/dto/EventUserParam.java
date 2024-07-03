@@ -8,8 +8,8 @@ import lombok.Setter;
 import java.time.LocalDateTime;
 import java.util.List;
 
-@Getter 
-@Setter 
+@Getter
+@Setter
 @EqualsAndHashCode
 @AllArgsConstructor
 public class EventUserParam {

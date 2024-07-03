@@ -2,8 +2,8 @@ package ru.practicum.explorewithme.user.dto;
 
 import lombok.*;
 
-@Getter 
-@Setter 
+@Getter
+@Setter
 @EqualsAndHashCode
 @Builder
 @AllArgsConstructor

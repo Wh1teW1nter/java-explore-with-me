@@ -5,8 +5,8 @@ import ru.practicum.explorewithme.category.dto.CategoryDto;
 import ru.practicum.explorewithme.event.model.Location;
 import ru.practicum.explorewithme.user.dto.UserShortDto;
 
-@Getter 
-@Setter 
+@Getter
+@Setter
 @EqualsAndHashCode
 @Builder
 @AllArgsConstructor

@@ -7,8 +7,8 @@ import ru.practicum.explorewithme.user.model.User;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
-@Getter 
-@Setter 
+@Getter
+@Setter
 @EqualsAndHashCode
 @Entity
 @Builder

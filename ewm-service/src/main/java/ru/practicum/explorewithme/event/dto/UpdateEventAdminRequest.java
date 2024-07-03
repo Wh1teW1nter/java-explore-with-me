@@ -6,8 +6,8 @@ import ru.practicum.explorewithme.event.model.Location;
 import javax.validation.constraints.Positive;
 import javax.validation.constraints.Size;
 
-@Getter 
-@Setter 
+@Getter
+@Setter
 @EqualsAndHashCode
 @NoArgsConstructor
 @AllArgsConstructor
