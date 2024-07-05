@@ -23,10 +23,10 @@ public class Request {
     @Column(name = "created_at")
     private LocalDateTime createdAt;
     @ToString.Exclude
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "event_id", nullable = false)
     private Event event;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @ToString.Exclude
     @JoinColumn(name = "requester_id", nullable = false)
     private User requester;

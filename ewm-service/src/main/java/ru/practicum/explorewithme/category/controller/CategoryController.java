@@ -16,7 +16,6 @@ public class CategoryController {
 
     private final CategoryService categoryService;
 
-    //Admin part
     @PostMapping(value = "admin/categories")
     @ResponseStatus(HttpStatus.CREATED)
     public CategoryDto addCategory(@Valid @RequestBody NewCategoryDto categoryDto) {
@@ -35,7 +34,6 @@ public class CategoryController {
         return categoryService.updateCategory(catId, categoryDto);
     }
 
-    //Public part
     @GetMapping("/categories")
     public List<CategoryDto> findCategories(@RequestParam(required = false, defaultValue = "0") Integer from,
                                             @RequestParam(required = false, defaultValue = "10") Integer size) {
