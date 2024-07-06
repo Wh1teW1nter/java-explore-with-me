@@ -1,15 +1,15 @@
 package ru.practicum.explorewithme;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 
 @Getter
-@Setter
-@EqualsAndHashCode
 @AllArgsConstructor
 @NoArgsConstructor
 public class StatisticInDto {
