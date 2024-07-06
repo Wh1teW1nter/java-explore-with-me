@@ -74,7 +74,6 @@ public class EventController {
         return eventService.adminUpdateEvent(eventId, updateRequest);
     }
 
-    //Public endpoints
     @GetMapping("/events")
     public List<EventShortDto> findEventsByPublic(@RequestParam(required = false) String text,
                                                   @RequestParam(required = false) List<Long> categories,
@@ -114,6 +113,7 @@ public class EventController {
                                                                     @Valid @RequestBody EventRequestStatusUpdateRequest updateRequest) {
         return eventService.changeEventRequestsStatus(userId, eventId, updateRequest);
     }
+
     @GetMapping("/users/{userId}/followers/{followerId}/events")
     public List<EventFullDto> findEventsBySubscriptionOfUser(@PathVariable Long userId,
                                                              @PathVariable Long followerId,
