@@ -17,7 +17,6 @@ public class CompilationController {
 
     private final CompilationService compService;
 
-    //Public endpoints
     @GetMapping("/compilations")
     public List<CompilationDto> findCompilations(@RequestParam(required = false, defaultValue = "false") String pinned,
                                                  @RequestParam(required = false, defaultValue = "0") Integer from,
@@ -30,7 +29,6 @@ public class CompilationController {
         return compService.findCompilationById(compId);
     }
 
-    //Admin endpoints
     @PostMapping(value = "/admin/compilations")
     @ResponseStatus(HttpStatus.CREATED)
     public CompilationDto addCompilation(@Valid @RequestBody NewCompilationDto compilationDto) {
