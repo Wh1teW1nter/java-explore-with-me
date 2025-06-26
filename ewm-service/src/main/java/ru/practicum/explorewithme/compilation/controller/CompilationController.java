@@ -27,7 +27,7 @@ public class CompilationController {
 
     @GetMapping("/compilations/{compId}")
     public CompilationDto findCompilationById(@PathVariable Long compId) {
-        return compService.findCompilationById(compId);
+        return compService.findCompilationById(compId);qweqwe
     }
 
     //Admin endpoints
