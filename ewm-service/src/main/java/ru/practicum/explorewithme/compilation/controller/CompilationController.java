@@ -28,7 +28,7 @@ public class CompilationController {
     @GetMapping("/compilations/{compId}")
     public CompilationDto findCompilationById(@PathVariable Long compId) {
         return compService.findCompilationById(compId);qweqwe
-    }
+    }яыффы
 
     //Admin endpoints
     @PostMapping(value = "/admin/compilations")
